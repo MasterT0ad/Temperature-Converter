@@ -20,7 +20,8 @@ public class Main {
                 double fahrenheitTemp = ((temperature * 9/5) + 32);
                 println("The temperature in fahrenheit is: "+fahrenheitTemp);
             }
-                if (type.equals(kelvin)){
+        
+            if (type.equals(kelvin)){
 
                     if(temperature < (-273.15)){
                     println("There is no negative kelvin");
